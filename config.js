@@ -1,6 +1,6 @@
 /* ConfigFile for DB-Backend and Base-URL */
 const config = {
-	port:8006,
+	port:80,
 	baseUrl:'/wldata',
 	logging: true
 };
