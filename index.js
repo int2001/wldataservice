@@ -26,8 +26,7 @@ app.post(config.baseUrl+'/geocalc', async function(req, res) {
 });
 
 app.post(config.baseUrl+'/test', async function(req, res) {	
-	let testkram=req.body.testvalue || '';	// SiSo-Var (Shit in, Shit out - hopefully it holds)
-	let response={status:"success",status_code:200,data:{testvalue:testkram.substring(0,128) || ''}};
+	let response={status:"success",status_code:200,data:{testvalue:true}};
 	res.status(response.status_code).send(response);
 });
 
