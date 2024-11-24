@@ -1,0 +1,18 @@
+{
+  "name": "wldata",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dateformat": "^5.0.3",
+    "express": "^4.21.1",
+    "geo-tz": "^8.1.2",
+    "maidenhead": "^1.0.7",
+    "morgan": "^1.10.0"
+  }
+}
